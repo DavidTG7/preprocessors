@@ -82,6 +82,7 @@ header a {
 	font-size: 20px;
 	font-weight: 900;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .boton:hover {
