@@ -1,0 +1,18 @@
+extend components/template.pug
+block contents
+  main.contenido
+    .aside 
+      h2=titles[2]
+      ul
+        each item in menu 
+          li=item
+    .intro
+      h2=titles[1]
+      .intro__imagen: img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Artificial_Intelligence_%26_AI_%26_Machine_Learning_-_30212411048.jpg/1280px-Artificial_Intelligence_%26_AI_%26_Machine_Learning_-_30212411048.jpg", alt="", srcset="")
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis qui a accusamus dolor nemo corrupti, dolorum, reprehenderit eaque iusto modi nulla repellat vero et. Placeat delectus iure inventore non repellat!
+      p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis odio quidem, dolor doloribus laboriosam iusto rerum qui error accusamus repudiandae? Ducimus, doloribus. Rem natus eligendi debitis, nam dignissimos quasi magnam!
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis autem vel reiciendis enim facilis odio dicta numquam minima, neque dolorum quia minus maxime eaque rerum nam amet. Hic perspiciatis error molestiae ipsa, nemo earum neque, voluptate beatae similique minus mollitia explicabo, ad repellendus veritatis optio aut cum. Laborum consequatur cum rem deserunt, voluptatem cupiditate, alias ipsum quis ipsa aliquid nostrum expedita sunt est et deleniti magnam doloribus repellendus qui architecto explicabo dolores!
+      br
+      br
+      a.boton Read More
+      
